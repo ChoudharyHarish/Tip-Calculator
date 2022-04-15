@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: rgb(198, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container{
+    background-color: white;
+    border-radius: 13px;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.left-section{
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    
+}   
+.card{
+    margin: 22px 0px;
+}
+
+input{
+    width: 100%;
+    background-color: rgb(226, 237, 245);
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    padding: 0.8em;
+}
+
+.tip-container{
+    margin-top: 2px;
+    /* border: 3px solid; */
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.btn{
+    padding: 8px 8px;
+    background-color: rgb(7 104 104);
+    font-size: 15px;
+    margin: 3px;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    background-color: rgb(30, 218, 189);
+    color:rgb(7 104 104) ;
+} 
+.custom{
+    background-color:aliceblue;
+    color: rgb(7 104 104);
+}
+.right-section{
+        padding: 1.3rem;
+        color: white;
+        background-color: rgb(7 104 104);
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+}
+.right-section-p{
+    color: white;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.person{
+    font-size: 10px;
+    color: rgb(30, 218, 189);
+    text-align: left;
+}
+.amount-cal{
+        color: rgb(32 203 178);
+}
+input[type = "reset"]{
+    position: relative;
+    top: 60px;
+    background-color: rgb(30, 218, 189);
+    color:rgb(7 104 104) ;
+    text-align: center;
+}
+.horizontal-container{
+    display: flex;
+    margin: 15px 0px;
+}
+.amount-cal{
+        justify-self: flex-end;
+}
+h1{   
+     font-size: 25px;
+    color: rgb(7 104 104);
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    line-height: 5rem;
+    margin: 8px;
+}
